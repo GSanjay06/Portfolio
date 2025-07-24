@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="theme-toggle" id="theme-toggle" title="Toggle dark/light mode">
+        <span>🌙</span>
+      </div>
+      <div class="mobile-menu" id="mobile-menu">
+        <span></span><span></span><span></span>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="section home-section">
+      <div class="home-content">
+        <h1>Hi, I'm <span class="highlight">SANJAY G</span></h1>
+        <h2 class="typing-effect">Web Developer | Designer | Creator</h2>
+        <p>Welcome to my personal portfolio website!</p>
+        <a href="#projects" class="cta-btn">See My Work</a>
+      </div>
+    </section>
+    <section id="about" class="section about-section">
+      <div class="about-content">
+        <img src="photo.jpg" alt="Profile Photo" class="profile-photo">
+        <div>
+          <h2>About Me</h2>
+          <p> I am SANJAY G pursuing B.E Computer Science and Engineering </p>
+          <p> Currently II year in R.M.K College of Engineering and Technology.</p>
+          <p> Completed Typewritting English [senior] </p>
+          <p> Passionate about web development, design, and technology.</p>
+          <ul class="interests">
+            <li>🌱 Learning new tech</li>
+            <li>🎨 UI/UX Design</li>
+            <li>💻 Coding</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="home" class="section home-section">
+      <div class="home-content">
+        <h1><span class="highlight">RESUME</span></h1>
+      <img src="resume.jpg" style="width: 300px; height: auto;">
+    </section>
+    <section id="projects" class="section projects-section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <!-- Example project card -->
+        <div class="project-card">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project Title</h3>
+          <p>Short project description goes here.</p>
+          <div class="project-links">
+            <a href="#" target="_blank">Live</a>
+            <a href="#" target="_blank">GitHub</a>
+          </div>
+        </div>
+        <!-- Add more project cards as needed -->
+      </div>
+    </section>
+    <section id="skills" class="section skills-section">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">
+          <span>HTML</span>
+          <div class="progress-bar"><div class="progress" style="width:25%"></div></div>
+        </div>
+        <div class="skill">
+          <span>CSS</span>
+          <div class="progress-bar"><div class="progress" style="width:25%"></div></div>
+        </div>
+        <div class="skill">
+          <span>JavaScript</span>
+          <div class="progress-bar"><div class="progress" style="width:25%"></div></div>
+        </div>
+        <div class="skill">
+          <span>Typewritting English</span>
+          <div class="progress-bar"><div class="progress" style="width:100%"></div></div>
+        </div>
+        <!-- Add more skills as needed -->
+      </div>
+    </section>
+    <section id="contact" class="section contact-section">
+      <h2>Contact</h2>
+      <form id="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          <span class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          <span class="error-message"></span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <span class="error-message"></span>
+        </div>
+        <button type="submit" class="cta-btn">Send Message</button>
+      </form>
+      <div class="social-links">
+        <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i>GitHub</a>
+        <a href="https://www.linkedin.com/in/sanjay-g-a6821b368/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        <a href="mailto:gsanjay0207@gmail.com" target="_blank" title="Email"><i class="fab fa-email"></i>Email</a>
+      </div>
+    </section>
+    
+    <section id="contact-info" class="section contact-info-section">
+      <h2>Contact Information</h2>
+      <div class="contact-info-grid">
+        <div class="contact-info-card">
+          <div class="contact-icon">📧</div>
+          <h3>Email</h3>
+          <p>gsanjay0207@gmail.com</p>
+          <a href="mailto:gsanjay0207@gmail.com" class="contact-link">Send Email</a>
+        </div>
+        
+        <div class="contact-info-card">
+          <div class="contact-icon">📱</div>
+          <h3>Phone</h3>
+          <p>+91 93846 53783</p>
+          <a href="tel:+919384653783" class="contact-link">Call Now</a>
+        </div>
+        
+        <div class="contact-info-card">
+          <div class="contact-icon">📍</div>
+          <h3>Location</h3>
+          <p>Chennai, Tamil Nadu, India</p>
+          <a href="https://maps.google.com" target="_blank" class="contact-link">View on Map</a>
+        </div>
+        
+        <div class="contact-info-card">
+          <div class="contact-icon">🎓</div>
+          <h3>Education</h3>
+          <p>R.M.K College of Engineering and Technology</p>
+          <p>B.E Computer Science and Engineering</p>
+        </div>
+      </div>
+      
+      <div class="contact-availability">
+        <h3>Availability</h3>
+        <p>I'm currently available for freelance projects and full-time opportunities.</p>
+        <div class="availability-status">
+          <span class="status-dot"></span>
+          <span>Available for new opportunities</span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <button id="scrollToTopBtn" title="Scroll to top">↑</button>
+  <script src="https://kit.fontawesome.com/yourkit.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html> 
